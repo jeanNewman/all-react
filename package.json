@@ -1,0 +1,8 @@
+{
+  "name": "all-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jeanNewman/all-react.git",
+  "author": "Jean Newman <newmanrios@gmail.com>",
+  "license": "MIT"
+}

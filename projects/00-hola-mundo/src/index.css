@@ -1,0 +1,39 @@
+/* FILEPATH: /home/jean/all-react/projects/00-hola-mundo/src/index.css */
+
+/* Reset default styles */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+/* Global styles */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #222;
+}
+
+.App {
+ display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+}
