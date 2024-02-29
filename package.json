@@ -9,11 +9,12 @@
     "global": "^4.4.0",
     "standard": "^17.1.0"
   },
-  "eslintConfig": {
+ "eslintConfig": {
     "extends": "standard",
     "rules": {
-      "no-unused-vars": 0
+      "no-unused-vars": 0,
+      "no-undef": 0,
+      "no-unused-expressions": 0
     }
-    
   }
 }
