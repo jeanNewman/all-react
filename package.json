@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/jeanNewman/all-react.git",
   "author": "Jean Newman <newmanrios@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "global": "^4.4.0",
+    "standard": "^17.1.0"
+  }
 }
