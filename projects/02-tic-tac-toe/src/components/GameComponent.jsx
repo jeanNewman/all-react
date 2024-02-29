@@ -6,9 +6,19 @@ import { TURNS } from '../constant/Constants.jsx'
 
 
 export const Game = () => {
-const [board,setBoard] = useState(Array(9).fill(null))
+const [board,setBoard] = useState(() => {
+    const savedBoard = window.localStorage.getItem('board')
+    if(savedBoard){
+        return JSON.parse(savedBoard)
+    }
+    return Array(9).fill(null)
 
-const [turn, setTurn] = useState(TURNS.X)
+})
+
+const [turn, setTurn] = useState(() => {
+    const saveTurn = window.localStorage.getItem('turn')
+    return saveTurn ?? TURNS.X
+})
 
 const [winner, setWinner] = useState(null)
 
