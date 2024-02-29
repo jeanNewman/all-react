@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Square,updateBoard,resetGame} from './SquareComponent.jsx';
 import { WinnerModalComponent } from './WinnerModalComponent.jsx'
-import { TURNS } from '../constant/Constants.jsx'
+import { TURNS } from "../constant/Constants.jsx"
 
 
 

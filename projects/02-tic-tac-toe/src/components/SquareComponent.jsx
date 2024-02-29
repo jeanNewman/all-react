@@ -55,7 +55,7 @@ export const updateBoard = (index,turn, setTurn, board,setBoard, winner, setWinn
         if(newWinner){
           setWinner(newWinner)
           confetti()
-         
+        
         }
         else if(!newBoard.includes(null)){
           setWinner(false)
